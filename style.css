@@ -31,3 +31,19 @@ h2 {
 .sub-header {
   color: white;
 }
+
+.navigation a {
+  font-family: Futura;
+  font-size: 30px
+  color:rgb(102, 0, 51);
+  background-color: red;
+  padding: 2px 2px;
+}
+
+.navigation a:hover {
+  font-family: Futura;
+  font-size: 30px
+  color: red;
+  background-color: rgb(102, 0, 51);
+  padding: 2px 2px;
+}
