@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 p {
      font-family: Futura;
    }
@@ -32,12 +37,17 @@ h2 {
   color: white;
 }
 
+.navigation {
+  align: center;
+}
+
 .navigation a {
   font-family: Futura;
   font-size: 30px
   color:rgb(102, 0, 51);
-  background-color: red;
-  padding: 2px 2px;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .navigation a:hover {
