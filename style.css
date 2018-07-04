@@ -16,7 +16,6 @@ h1 {
      font-size: 75px;
      font-weight: lighter;
      text-align: center;
-     line-height: 50%;
      color: rgb(102, 0, 51);
    }
 
@@ -24,7 +23,6 @@ h2 {
     font-family: Futura;
     font-weight: lighter;
     text-align: center;
-    line-height: 50%;
    }
 
 .header {
