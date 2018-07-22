@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 p {
@@ -26,13 +27,14 @@ h2 {
    }
 
 .background {
-  padding: 50 50;
-  background-image: url("images/Picture1.png");
+  padding: 500 500;
+  background-image: url("images/boys.jpg");
 }
 
 .header {
-  padding: 50 50;
-  background-color: white;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color: rgb(102, 0, 51);
 }
 
 .sub-header {
