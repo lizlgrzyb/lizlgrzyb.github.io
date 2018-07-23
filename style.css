@@ -8,23 +8,23 @@ p {
      font-family: Futura;
    }
 
-.uppercase {
-  text-transform: uppercase;
-}
 
 h1 {
      font-family: Futura;
      font-size: 100px;
      font-weight: lighter;
-     text-align: center;
-        color: rgb(173, 6, 48);
+     color: #ffffff;
    }
 
 h2 {
     font-family: Futura;
     font-weight: lighter;
-    text-align: center;
    }
+
+h3 {
+
+
+}
 
 .background {
   padding: 500 500;
@@ -32,35 +32,52 @@ h2 {
 }
 
 .header {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  background-color: rgb(102, 0, 51);
+  padding-top: 225px;
+  padding-bottom: 200px;
+  background-color: rgb(8, 69, 76);
+  text-align: center;
 }
 
 .sub-header {
-   color: rgb(95, 96, 96);
+   color: #1E0749;
+   font-size: 30px;
+}
+
+.section {
+  color: rgb(8, 69, 76);
+  background-color: #ffff;
+  padding: 200px 200px;
 }
 
 .navigation {
-  align: center;
+  color: #ffffff;
+  font-family: Futura;
+  font-weight: lighter;
+  font-size: 15px;
+  padding-top: 50px;
 }
 
 .navigation a {
-  font-family: Futura;
+  font-family: Myriad;
   font-size: 30px
   color:rgb(102, 0, 51);
   padding: 2px 10px;
   text-decoration: none;
 }
 
-a.navigation {
-  align: center;
-}
-
 .navigation a:hover {
-  font-family: Futura;
+  font-family: Myriad;
   font-size: 30px
   color: red;
   background-color: rgb(102, 0, 51);
   padding: 2px 2px;
+}
+
+.paragraph {
+  font-family: Dosis, sans-serif;
+  padding-top: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
